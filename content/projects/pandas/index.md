@@ -1,15 +1,16 @@
 ---
-title: Pandas
-date: 2023-10-26
-links:
-  - type: site
-    url: https://github.com/pandas-dev/pandas
+title: Presidents Employment Analysis
+date: 2022-10-01
+summary: Python analysis of employment trends by U.S. political party using presidential data.
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Python
+  - NumPy
+  - Data Analysis
+  - Visualization
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+Built a Python program to analyze which political party produced more employment using functions,
+files, dictionaries, NumPy, data frames, and Matplotlib. The project calculated average employment
+rates by party and generated a comparative visualization to show the difference.
 
 <!--more-->

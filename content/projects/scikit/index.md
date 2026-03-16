@@ -1,15 +1,16 @@
 ---
-title: scikit-learn
-date: 2023-10-26
-links:
-  - type: site
-    url: https://github.com/scikit-learn/scikit-learn
+title: Supply Chain Shortage Reporting
+date: 2024-01-01
+summary: Automated shortage visibility and planning support using SQL and Google Apps Script.
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - SQL
+  - Google Apps Script
+  - Supply Chain
+  - Reporting
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+Designed an MRP-based shortage reporting workflow that calculated projected part quantities and
+generated action statuses for purchasing teams. The work combined SQL analysis, automation logic,
+and dashboard output to improve day-to-day planning visibility.
 
 <!--more-->

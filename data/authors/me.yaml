@@ -2,115 +2,114 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Harshita Vallamsetty
+  given: Harshita
+  family: Vallamsetty
+  alternate: ''
+  pronunciation: ''
+  pronouns: she/her
+postnominals: []
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: ""
+role: Data Analyst
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Data analyst with experience in supply chain analytics, reporting automation,
+  and dashboard development. I work across SQL, Power BI, Tableau, Sigma,
+  Python, and Google Apps Script to turn operational data into decisions.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Archer Aviation, Inc.
 
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/harshitavallamsetty/
+    label: LinkedIn
+  - icon: map-pin
+    url: https://maps.google.com/?q=San+Jose,+CA
+    label: San Jose, CA
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Supply chain analytics
+  - Business intelligence
+  - Data visualization
+  - Process improvement
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: Master of Science, Business Analytics
+    institution: California State Polytechnic University, Pomona
+    start: 2021-08-01
+    end: 2022-12-31
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Relevant coursework: Data Mining for Business Analytics, Advanced Statistics,
+      Python, R Programming, Data Management, Data Visualization, Big Data Technology,
+      and Text Mining Analytics.
+  - degree: Bachelor of Science, Business Administration
+    institution: California State University, Los Angeles
+    start: 2018-08-01
+    end: 2021-05-31
+    summary: |
+      Major in Accounting, minor in Finance. Dean's List, Finance Management Association
+      club member, and CPA eligible.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Data Analyst, Supply Chain
+    org: Archer Aviation, Inc.
+    start: 2023-01-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      - Built an MRP-based shortage report using SQL and Apps Script to calculate projected part quantities and generate action statuses for purchasing teams.
+      - Developed and maintained dashboards in Power BI, Tableau, and Sigma to track projected shortages, supply health, and PO status.
+      - Analyzed SAP procurement and inventory data to improve planning visibility, reporting quality, and decision-making for procurement teams.
+      - Partnered with product, operations, engineering, and procurement stakeholders to define metrics and improve ERP data workflows.
+  - role: Data Analyst
+    org: California State Polytechnic University, Pomona
+    start: 2022-06-01
+    end: 2023-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      - Produced executive summary reports that translated analysis into actionable insights for decision-makers.
+      - Used Excel, Qualtrics, and Tableau to clean survey data and build reports with clear findings.
+      - Extracted and analyzed large datasets from multiple sources using Python and SQL.
 
 skills:
   - name: Technical Skills
     items:
+      - label: SQL
+        level: 5
+      - label: Power BI
+        level: 5
+      - label: Tableau
+        level: 5
+      - label: Sigma
+        level: 4
+      - label: Snowflake
+        level: 4
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
         level: 4
-  - name: Research & Communication
+      - label: R
+        level: 4
+      - label: Advanced Excel
+        level: 5
+      - label: JavaScript
+        level: 3
+  - name: Tools & Platforms
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
+      - label: SAP Analytics
         level: 4
-      - label: Grant Proposals
+      - label: Google Apps Script
+        level: 4
+      - label: Qualtrics
+        level: 4
+      - label: AWS Glue & Athena
+        level: 3
+      - label: QuickSight
+        level: 3
+      - label: Hadoop & Spark
+        level: 3
+      - label: Jira & Project Management
         level: 4
 
 languages:
   - name: English
     level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+    label: Professional
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+awards: []
