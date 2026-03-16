@@ -10,21 +10,24 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: markdown
+  - block: resume-biography-3
     content:
-      title: Harshita Vallamsetty
-      subtitle: Data Analyst
+      username: me
       text: |-
-        San Jose, CA  
-        [LinkedIn](https://www.linkedin.com/in/harshitavallamsetty/)
-
         I build practical analytics tools for operations teams, with a focus on supply chain visibility,
         procurement planning, and dashboards that help teams act faster.
+      button:
+        text: View Resume
+        url: /experience/
     design:
       background:
         gradient_mesh:
           enable: true
-      columns: '1'
+      name:
+        size: md
+      avatar:
+        size: medium
+        shape: circle
   - block: markdown
     content:
       title: About
@@ -39,6 +42,12 @@ sections:
         B.S. in Business Administration from California State University, Los Angeles.
     design:
       columns: '1'
+  - block: resume-experience
+    content:
+      username: me
+    design:
+      date_format: 'January 2006'
+      is_education_first: false
   - block: collection
     id: projects
     content:
